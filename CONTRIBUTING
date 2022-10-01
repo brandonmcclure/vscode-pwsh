@@ -1,0 +1,14 @@
+# Contributing
+
+I welcome pull requests, but this project is my own personal snippets.
+
+## How to build
+
+you will need `git` and `make`, `docker` and `pwsh core` to run these build steps.
+
+`git clone https://github.com/brandonmcclure/vscode-pwsh.git`
+`cd vscode-pwsh`
+
+Adjust the version in the Makefile, then
+`make build package`
+which will produce a `.vsix` you can install to test/distribute as you see fit.

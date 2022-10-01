@@ -1,0 +1,28 @@
+{
+	"logger": {
+	  "prefix": "sn_help",
+	  "body": [
+		"<#",
+		"\t.Synopsis",
+		"\t\tPlease give your script a brief Synopsis,",
+		"\t.DESCRIPTION",
+		"\t\tA slightly longer description,",
+		"\t.PARAMETER logLevel",
+		"\t\texplain your parameters here. Create a new .PARAMETER line for each parameter,",
+		"\t\t",
+		"\t.EXAMPLE",
+		"\t\tTHis example runs the script with a change to the logLevel parameter.\n",
+		"\t\t.Template.ps1 -logLevel Debug\n",
+		"\t.INPUTS",
+		"\t\tWhat sort of pipeline inputdoes this expect?",
+		"\t.OUTPUTS",
+		"\t\tWhat sort of pipeline output does this output?",
+		"\t.LINK",
+		"\t\twww.google.com",
+		"#>"
+	],
+	"description": "Sets the default shell for this makefile to pwsh core",
+	"scope": "source.powershell"
+	}
+	
+}
